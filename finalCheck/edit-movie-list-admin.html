@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Font+Name"
+    />
+    <title>Menu</title>
+    <style>
+     html,body{
+         overflow-x: hidden;
+         background-color: #064270;
+     }
+      nav {
+        background-color: #2C2423;
+        background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+      }
+      .material-icons {
+        vertical-align: middle;
+      }
+      .icon-size {
+        font-size: 1.5rem;
+      }
+      #find-food{
+        font-weight: normal;
+        margin-left: 2.5%;
+        padding: 0;
+      }
+
+
+      .card {
+        max-width: 22rem;
+      }
+      .movie_info{
+			color: #5e5c5c;
+		}
+
+		.movie_info i{
+			font-size: 10px;
+		}
+     #cost {
+        color:brown;
+      }
+      #schedule{
+          font-size: 0.75rem;
+      }
+      #free{
+        display: block;
+          font-size: 0.75rem;
+      }
+      #edit-button {
+        background-color: #2C2423;
+      }
+      footer {
+        background-color: #2C2423;
+        height: 3rem;
+        margin-top: 2%;
+      }
+
+      
+    </style>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand text-white">
+        <i class="material-icons icon-size">movie</i>
+        MovieCruiser</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="menu-item-list-admin.html">Menu Items</a>
+          </li>
+        </ul>
+      </div>
+    </nav>      
+
+    <div class="container-fluid wrapper flex-grow-1">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 col-12">
+            <div class="card-deck">
+
+            <div class="card mt-2">
+              <img
+              src="https://lh3.googleusercontent.com/proxy/Mz8kNs6FazLH_KUQT3Pkld47GKJj6fEJad71BltDdGaYmGIdrQfgeBbIhfJmJ1hqJdiMgfwZ5dMR7DxT1IRD_k1w3gHQM7_2uQsqA3baDQ"
+                class="card-img-top"
+                alt="Sandwich"
+              style="height: 400px; width: auto;"/>
+              <div class="card-body">
+                <span class="mb-1 card-title font-weight-normal text-secondary"></span>
+                  BRIGHT
+                  <span class="movie_info float-right"><i class="fas fa-star"></i> 7/10</span>
+                </h5>
+
+                <div>
+
+                <small class="text-muted">
+                    <span class="badge badge-success ml-1" > Active </span>
+
+                  Action/Magic
+                  
+                  <span class="float-right">
+                    <button class="btn-sm" id="trailer">
+                      <i class="material-icons icon-size text-dark"
+                      >local_movies</i
+                    >
+                      Watch Trailer</button>
+                  </small>
+                  </div>
+                  <br>
+                  <div>
+                  <small class="text-muted">
+                    <i class="material-icons" id="schedule">schedule</i>
+                    Launch
+                  </small>
+                  <a href="edit-menu-item.html" class="btn float-right text-white mt-2" id="edit-button"
+                  ><i class="material-icons" id="edit">edit</i> Edit</a
+                >
+                </div>
+                  <small class="text-muted">
+                  22/12/2017
+                   </small>
+               
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-12">
+          <div class="card-deck">
+
+            <div class="card mt-2">
+              <img
+              src="https://images-na.ssl-images-amazon.com/images/I/81kz06oSUeL._AC_SL1500_.jpg"
+                class="card-img-top"
+                alt="Sandwich"
+                style="height: 400px; width: auto;"/>
+              <div class="card-body">
+                <span class="mb-1 card-title font-weight-normal text-secondary"></span>
+                  INTERSTELLAR
+                  <span class="movie_info float-right"><i class="fas fa-star"></i> 9/10</span>
+                </h5>
+
+                <div>
+
+                <small class="text-muted">
+                    <span class="badge badge-success ml-1" > Active </span>
+
+                  Sci-fi/Thriller
+                  
+                  <span class="float-right">
+                    <button class="btn-sm" id="trailer">
+                      <i class="material-icons icon-size text-dark"
+                      >play_circle</i
+                    >
+                      Watch Trailer</button>
+                  </small>
+                  </div>
+                  <br>
+                  <div>
+                  <small class="text-muted">
+                    <i class="material-icons" id="schedule">schedule</i>
+                    Launch
+                  </small>
+                  <a href="edit-menu-item.html" class="btn float-right text-white mt-2" id="edit-button"
+                  ><i class="material-icons" id="edit">edit</i> Edit</a
+                >
+                </div>
+                  <small class="text-muted">
+                  15/04/2018
+                   </small>
+               
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-12">
+          <div class="card-deck">
+
+            <div class="card mt-2">
+              <img
+              src="https://images-na.ssl-images-amazon.com/images/I/5111BanI82L._AC_.jpg"
+                class="card-img-top"
+                alt="Sandwich"
+                style="height: 400px; width: auto;"/>
+              <div class="card-body">
+                <span class="mb-1 card-title font-weight-normal text-secondary"></span>
+                  TOP GUN
+                  <span class="movie_info float-right"><i class="fas fa-star"></i> 8.5/10</span>
+                </h5>
+
+                <div>
+
+                <small class="text-muted">
+                    <span class="badge badge-danger ml-1" > Inactive </span>
+
+                  Action/Adventure
+                  
+                  <span class="float-right">
+                    <button class="btn-sm" id="trailer">
+                      <i class="material-icons icon-size text-dark"
+                      >play_circle</i
+                    >
+                      Watch Trailer</button>
+                  </small>
+                  </div>
+                  <br>
+                  <div>
+                  <small class="text-muted">
+                    <i class="material-icons" id="schedule">schedule</i>
+                    Launch
+                  </small>
+                  <a href="edit-menu-item.html" class="btn float-right text-white mt-2" id="edit-button"
+                  ><i class="material-icons" id="edit">edit</i> Edit</a
+                >
+                </div>
+                  <small class="text-muted">
+                  09/06/1987
+                   </small>
+               
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-12">
+          <div class="card-deck">
+
+            <div class="card mt-2">
+              <img
+              src="https://www.joblo.com/assets/images/joblo/news/2019/02/captin-marvel-poster-international.jpg"
+                class="card-img-top"
+                alt="Sandwich"
+                style="height: 400px; width: auto"/>
+              <div class="card-body">
+                <span class="mb-1 card-title font-weight-normal text-secondary"></span>
+                  CAPTAIN MARVEL
+                  <span class="movie_info float-right"><i class="fas fa-star"></i> 8/10</span>
+                </h5>
+
+                <div>
+
+                <small class="text-muted">
+                    <span class="badge badge-success ml-1" > Active </span>
+
+                  Action/Sci-fi/Alien
+                  
+                  <span class="float-right">
+                    <button class="btn-sm" id="trailer"> 
+                      <i class="material-icons icon-size text-dark" 
+                      >play_circle</i
+                    >
+                      Watch Trailer</button>
+                  </small>
+                  </div>
+                  <br>
+                  <div>
+                  <small class="text-muted">
+                    <i class="material-icons" id="schedule">schedule</i>
+                    Launch
+                  </small>
+                  <a href="edit-menu-item.html" class="btn float-right text-white mt-2" id="edit-button"
+                  ><i class="material-icons" id="edit">edit</i> Edit</a
+                >
+                </div>
+                  <small class="text-muted">
+                  05/01/2019
+                   </small>
+               
+            </div>
+            </div>
+            </div>
+        </div>
+      
+
+        </div>
+      </div>
+      </div>    
+
+      <footer class="text-white text-lg-start container-fluid">
+        FinalCheck-Bootstrap
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
